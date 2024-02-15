@@ -1,6 +1,5 @@
 mkdir -p ~/.usr/local/share
 cd .usr/local/share
-sudo pacman -S --needed base-devel xorg-server xf86-video-amdgpu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon sudo nano git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
