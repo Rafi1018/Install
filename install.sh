@@ -7,7 +7,7 @@ makepkg -si
 yay -Y --gendb
 yay -Syu --devel
 yay -Y --devel --save
-yay -Syu 	aic94xx-firmware ast-firmware wd719x-firmware upd72020x-fw preload thorium-browser-bin lightdm-settings
+yay -Syu aic94xx-firmware ast-firmware wd719x-firmware upd72020x-fw preload thorium-browser-bin lightdm-settings
 sudo systemctl enable preload
 sudo systemctl start preload
 cd ..
