@@ -1,3 +1,4 @@
+xdg-user-dirs-update
 mkdir -p ~/.usr/local/share
 cd .usr/local/share
 git clone https://aur.archlinux.org/yay.git
