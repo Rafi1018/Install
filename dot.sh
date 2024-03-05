@@ -5,7 +5,7 @@ yay -Syu --devel
 yay -Y --devel --save
 cd ..
 rm -rf yay
-yay -Syu hyprland-git foot grim swww-git fish theme.sh aylurs-gtk-shell-git sassc starship cava imagemagick wl-clipboard libdbusmenu-gtk3 nerd-fonts slurp fish light swaylock-effects-git swayidle theme.sh sddm xdg-desktop-portal-hyprland firefox pipewire wireplumber polkit-kde-agent qt5-wayland qt6-wayland
+yay -Syu hyprland-git nautilus wofi foot grim swww-git fish theme.sh aylurs-gtk-shell-git sassc starship cava imagemagick wl-clipboard libdbusmenu-gtk3 nerd-fonts slurp fish light swaylock-effects-git swayidle theme.sh sddm xdg-desktop-portal-hyprland firefox pipewire wireplumber polkit-kde-agent qt5-wayland qt6-wayland
 mkdir -p ~/.config/hypr/themes
 git clone https://github.com/flick0/dotfiles
 cd dotfiles
